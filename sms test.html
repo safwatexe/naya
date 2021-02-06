@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>sms test</title>
+  <link rel="testcss" type="text/css" href="testcss.css">
+  
+</head>
+<body>
+     <form action="/https://601bf66d1a9c22001706003a.mockapi.io/api/test/sms" method="POST">
+        
+             <label>Add Number To list</label>
+             <input type="tel" id="telN" >
+             <input type="button" onclick="addtolist()" value="Add" id="submit"><br>
+             <label>Phone Number list</label><br>
+             <textarea style="height:150px" id="result"></textarea><br>
+             <label>Message Template</label><br>
+             <textarea style="height:150px"></textarea><br>
+             <input type="submit" value="Send">
+     </form>
+     <script src="./sms.js"></script>
+</body>
+</body>
+</html>
