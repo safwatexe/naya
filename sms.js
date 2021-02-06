@@ -1,8 +1,8 @@
 
-function addtolist(){
-let tel=document.getElementById("telN");  //textbox den value alma
-let txt=document.getElementById("result").textContent;  //text te value kaydetme
-document.getElementById("result").textContent=txt; //yazdırma
+function addtolist(){ // this function 
+let tel=document.getElementById("telN");  
+let txt=document.getElementById("result").textContent;  
+document.getElementById("result").textContent= txt + tel.value +'\n'; 
 }
 
 
